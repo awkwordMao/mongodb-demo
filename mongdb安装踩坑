@@ -1,0 +1,4 @@
+1.安装完成之后，在根目录下（与bin同级）创建 data 目录，在 data 目录下创建 db 和 logs 两个文件夹。
+2.在 bin 目录中打开 cmd（管理员模式），输入
+mongod --dbpath db的文件目录 --logpath logs的文件目录\log.txt --install --serviceName "MongoDB" 回车
+即可在服务列表中创建名为“MongoDB”的服务，以供手动启动MongoDB数据库。
